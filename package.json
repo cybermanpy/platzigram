@@ -1,0 +1,16 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "comparte tu fotos estudiando en Platzi con el resto de la comunidad",
+  "main": "server.js",
+  "keywords": [
+    "platzi",
+    "javascript",
+    "curso-definitivo"
+  ],
+  "author": "platzi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.15.4"
+  }
+}
