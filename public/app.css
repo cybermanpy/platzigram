@@ -6916,8 +6916,8 @@ body {
   color: #125688;
   font-family: Montserrat; }
 
-#main-container {
-  margin: 20px auto; }
+.landing {
+  margin: 30px auto; }
 
 .iphone {
   max-width: 100%; }
@@ -6934,9 +6934,10 @@ body {
   padding: 10px 0;
   text-align: center; }
 
-.signup-box .platzigram {
+.platzigram {
   font-family: 'Oleo Script';
-  font-size: 42px; }
+  font-size: 42px;
+  color: #125688 !important; }
 
 .signup-form h2 {
   color: #a5a7aa;
@@ -6948,3 +6949,50 @@ body {
 
 .signup-form .btn.btn-signup, .signup-form .btn-signup.btn-large {
   background-color: #125688; }
+
+.header {
+  background-color: white;
+  color: #125688;
+  box-shadow: none;
+  border-botton: 1px solid #edeeee; }
+
+.timeline {
+  padding: 30px 0; }
+
+.nav-wrapper {
+  background-color: white; }
+
+.avatar {
+  max-width: 48px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 12px; }
+
+.card .username {
+  color: #125688; }
+
+.card small.time {
+  line-height: 48px; }
+
+.card p {
+  padding: 20px 0; }
+
+.card .likes {
+  line-height: 30px;
+  margin-left: 12px; }
+
+.card {
+  font-size: 20px; }
+
+.card .fa-heart-o {
+  color: #125688; }
+
+.card .fa-heart {
+  color: #f44336;
+  display: none; }
+
+.card.liked .fa-heart {
+  display: block; }
+
+.card.liked .fa-heart-o {
+  display: none; }

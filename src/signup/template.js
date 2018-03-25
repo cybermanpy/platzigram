@@ -9,7 +9,7 @@ var signupForm = yo`<div class="col s10 m7">
                 <h2>Registrate para ver fotos de tus amigos estudiando en Platzi</h2>
                 <div class="section">
                     <a class="btn btn-fb hide-on-small-only" href="">Iniciar sesion con facebook</a>
-                    <a class="btn btn-fb hide-on-med-and-up" href="">Iniciar sesion</a>
+                    <a class="btn btn-fb hide-on-med-and-up" href=""><i class="fa fa-facebook-official"></i> Iniciar sesion</a>
                 </div>
                 <div class="divider"></div>
                 <input type="email" name="email" placeholder="Correo electronico">
