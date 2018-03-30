@@ -18,7 +18,7 @@ var MESSAGE = {};
 MESSAGE.es = es;
 MESSAGE['en-US'] = en;
 
-var locale = 'es';
+var locale = localStorage.locale || 'es';
 
 module.exports = {
     message: function (text, opts) {
